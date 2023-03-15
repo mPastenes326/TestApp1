@@ -15,10 +15,10 @@ def create_dataframe(rows, columns):
     return df
 
 
-st.title("Ayo's First Application :sunglasses:")
-st.header("Dashboard")
+st.title("John Doe's First Application :sunglasses:")
+st.header("Accounting Dashboard")
 
-data = create_dataframe(5, 5)
+data = create_dataframe(50, 10)
 st.subheader("Data Table")
 st.dataframe(data)
 st.subheader("Data Line Chart")
