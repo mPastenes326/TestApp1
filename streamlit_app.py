@@ -15,8 +15,8 @@ def create_dataframe(rows, columns):
     return df
 
 
-st.title("John Doe's First Application :sunglasses:")
-st.header("Dashboard")
+st.title("Ayo's First Application :sunglasses:")
+st.header("My accounting software")
 
 data = create_dataframe(5, 5)
 st.subheader("Data Table")
