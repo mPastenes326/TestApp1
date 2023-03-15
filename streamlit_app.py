@@ -18,7 +18,7 @@ def create_dataframe(rows, columns):
 st.title("Ayo's First Application :sunglasses:")
 st.header("Dashboard")
 
-data = create_dataframe(20, 5)
+data = create_dataframe(5, 5)
 st.subheader("Data Table")
 st.dataframe(data)
 st.subheader("Data Line Chart")
