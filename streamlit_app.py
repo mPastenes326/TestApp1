@@ -11,7 +11,7 @@ def generate_table(rows, columns):
 def create_dataframe(rows, columns):
     df = pd.DataFrame(
         generate_table(rows, columns),
-        columns=('col %d' % i for i in range(columns)))
+        columns=('info %d' % i for i in range(columns)))
     return df
 
 
