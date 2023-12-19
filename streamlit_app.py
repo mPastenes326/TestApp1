@@ -11,10 +11,10 @@ def generate_table(rows, columns):
 
 
 def create_dataframe(rows, columns):
-    df = pd.DataFrame(
+    dataframe = pd.DataFrame(
         generate_table(rows, columns),
         columns=('info %d' % i for i in range(columns)))
-    return df
+    return dataframe
 
 
 
