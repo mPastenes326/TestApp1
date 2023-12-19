@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt  
+#import seaborn as sns
 
 
 def generate_table(rows, columns):
@@ -14,8 +16,7 @@ def create_dataframe(rows, columns):
         columns=('info %d' % i for i in range(columns)))
     return df
 
-import matplotlib.pyplot as plt  
-import seaborn as sns
+
 
 # Cargar datos
 def cargar_datos(ruta_archivo):
